@@ -1,0 +1,6 @@
+[submodule "VoicemeeterWrapper"]
+	path = VoicemeeterWrapper
+	url = https://github.com/nikolateslax/VoicemeeterWrapper
+[submodule "SharpOSC"]
+	path = SharpOSC
+	url = https://github.com/nikolateslax/SharpOSC
