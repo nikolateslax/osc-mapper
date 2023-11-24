@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "osc-mapper", "osc-mapper\osc-mapper.vbproj", "{EFDFFC33-A51D-4E9D-B82E-56A62B1D2844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpOSC", "SharpOSC\SharpOSC\SharpOSC.csproj", "{9B922B0B-5595-4E05-8270-F63FAAA6C299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceMeeterWrapper", "VoicemeeterWrapper\VoiceMeeterWrapper\VoiceMeeterWrapper.csproj", "{D9C0F0D7-1A04-45DC-8115-9C31946417D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{08BFEC78-F434-46D5-A359-E7023BA14DA7}"
+	ProjectSection(SolutionItems) = preProject
+		osc-mapper\Icon.png = osc-mapper\Icon.png
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFDFFC33-A51D-4E9D-B82E-56A62B1D2844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFDFFC33-A51D-4E9D-B82E-56A62B1D2844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFDFFC33-A51D-4E9D-B82E-56A62B1D2844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFDFFC33-A51D-4E9D-B82E-56A62B1D2844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B922B0B-5595-4E05-8270-F63FAAA6C299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B922B0B-5595-4E05-8270-F63FAAA6C299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B922B0B-5595-4E05-8270-F63FAAA6C299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B922B0B-5595-4E05-8270-F63FAAA6C299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C0F0D7-1A04-45DC-8115-9C31946417D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C0F0D7-1A04-45DC-8115-9C31946417D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C0F0D7-1A04-45DC-8115-9C31946417D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C0F0D7-1A04-45DC-8115-9C31946417D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84060883-0613-4FC4-A986-1BF75EF8997E}
+	EndGlobalSection
+EndGlobal
